@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ll1rSEu8/T2rojTN9V4/cg2tt4W/9MBIb6fjptMt5v0I1d3quEvnejI8AV/3Yf43kGM0HTI1HowRMgImYLha8A==",
+  "success": true,
+  "projectFilePath": "D:\\Education\\GitRep\\GitHub\\QA_Lab3_Miltsev\\LR2_Miltsev\\LR2_Miltsev.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KiriLL\\.nuget\\packages\\docfx\\2.59.2\\docfx.2.59.2.nupkg.sha512",
+    "C:\\Users\\KiriLL\\.nuget\\packages\\docfx.console\\2.59.2\\docfx.console.2.59.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"docfx 2.59.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "docfx",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+\hypertarget{class_l_r2___miltsev_1_1_node}{}\doxysection{LR2\+\_\+\+Miltsev.\+Node Class Reference}
+\label{class_l_r2___miltsev_1_1_node}\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_node_ab3f058129d82ab4e2a83b250fe97b399}{Node}} (int value)
+\item 
+List$<$ \mbox{\hyperlink{struct_l_r2___miltsev_1_1_next_node}{Next\+Node}} $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a1395c4e7255a7248f2081cb610d4d5db}{Get\+Children}} ()
+\item 
+int \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_aa7cd079bbc7507c93a497e65ad01ff5d}{Get\+Value}} ()
+\item 
+void \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a67637baad970d67139c4103bc168b411}{Add\+Child}} (\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} child, int weight)
+\item 
+void \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_afca8769bcd9af841075566b0583b17a3}{Remove\+Child}} (int removable\+Child\+Val, int weught=-\/1)
+\item 
+bool \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a473706e2c4fec470e6b08543e8289116}{Check\+Cycles}} (\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} current\+Node, \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} check\+Node, ref List$<$ int $>$ cycle\+Way)
+\item 
+int \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a2db789e88c24410f47059957b67bf0ed}{Search\+Child\+Weight}} (int child\+Value, int weight=-\/1)
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a485c84ffd65583cd13d0f15dca658c3e}{Search\+Child}} (int child\+Value, int weight=-\/1)
+\item 
+int \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_aae3a3a0c7f95b97d6950a4c0c6e6e8cb}{Search\+Child\+Weight}} (int child\+Value)
+\item 
+string \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a1d810e7eeac0cc35ba7d4f6829f3c8a4}{Get\+Nodes\+Work}} (int next\+Node\+Val, int weight=-\/1)
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_a8a9033e90cfff2252f9962cf0c1d2372}{Display\+All\+Ways}} (List$<$ int $>$ val)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{struct_l_r2___miltsev_1_1_next_node}{Next\+Node}} $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_ad7897c104a7a3117835f85895e0b920c}{\+\_\+children}}
+\item 
+int \mbox{\hyperlink{class_l_r2___miltsev_1_1_node_af353ae40e0e1a275c3e6b6545e107750}{\+\_\+value}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}}
+
+Класс, описывающий вершину графа 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_ab3f058129d82ab4e2a83b250fe97b399}\label{class_l_r2___miltsev_1_1_node_ab3f058129d82ab4e2a83b250fe97b399}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!Node@{Node}}
+\index{Node@{Node}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{Node()}{Node()}}
+{\footnotesize\ttfamily LR2\+\_\+\+Miltsev.\+Node.\+Node (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+Конструктор, описывающий вершину (её вес и потомков) 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a67637baad970d67139c4103bc168b411}\label{class_l_r2___miltsev_1_1_node_a67637baad970d67139c4103bc168b411}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!AddChild@{AddChild}}
+\index{AddChild@{AddChild}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{AddChild()}{AddChild()}}
+{\footnotesize\ttfamily void LR2\+\_\+\+Miltsev.\+Node.\+Add\+Child (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}}}]{child,  }\item[{int}]{weight }\end{DoxyParamCaption})}
+
+добавление потомка \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a473706e2c4fec470e6b08543e8289116}\label{class_l_r2___miltsev_1_1_node_a473706e2c4fec470e6b08543e8289116}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!CheckCycles@{CheckCycles}}
+\index{CheckCycles@{CheckCycles}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{CheckCycles()}{CheckCycles()}}
+{\footnotesize\ttfamily bool LR2\+\_\+\+Miltsev.\+Node.\+Check\+Cycles (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}}}]{current\+Node,  }\item[{\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}}}]{check\+Node,  }\item[{ref List$<$ int $>$}]{cycle\+Way }\end{DoxyParamCaption})}
+
+проверка на наличие циклов из вершины \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a8a9033e90cfff2252f9962cf0c1d2372}\label{class_l_r2___miltsev_1_1_node_a8a9033e90cfff2252f9962cf0c1d2372}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!DisplayAllWays@{DisplayAllWays}}
+\index{DisplayAllWays@{DisplayAllWays}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{DisplayAllWays()}{DisplayAllWays()}}
+{\footnotesize\ttfamily List$<$ int $>$ LR2\+\_\+\+Miltsev.\+Node.\+Display\+All\+Ways (\begin{DoxyParamCaption}\item[{List$<$ int $>$}]{val }\end{DoxyParamCaption})}
+
+вывод всех путей из начальной вершины до конечной \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a1395c4e7255a7248f2081cb610d4d5db}\label{class_l_r2___miltsev_1_1_node_a1395c4e7255a7248f2081cb610d4d5db}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!GetChildren@{GetChildren}}
+\index{GetChildren@{GetChildren}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{GetChildren()}{GetChildren()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{struct_l_r2___miltsev_1_1_next_node}{Next\+Node}} $>$ LR2\+\_\+\+Miltsev.\+Node.\+Get\+Children (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+получить список всех потомков вершины \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a1d810e7eeac0cc35ba7d4f6829f3c8a4}\label{class_l_r2___miltsev_1_1_node_a1d810e7eeac0cc35ba7d4f6829f3c8a4}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!GetNodesWork@{GetNodesWork}}
+\index{GetNodesWork@{GetNodesWork}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{GetNodesWork()}{GetNodesWork()}}
+{\footnotesize\ttfamily string LR2\+\_\+\+Miltsev.\+Node.\+Get\+Nodes\+Work (\begin{DoxyParamCaption}\item[{int}]{next\+Node\+Val,  }\item[{int}]{weight = {\ttfamily -\/1} }\end{DoxyParamCaption})}
+
+получение строки работы между вершиной и потомком \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_aa7cd079bbc7507c93a497e65ad01ff5d}\label{class_l_r2___miltsev_1_1_node_aa7cd079bbc7507c93a497e65ad01ff5d}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!GetValue@{GetValue}}
+\index{GetValue@{GetValue}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{GetValue()}{GetValue()}}
+{\footnotesize\ttfamily int LR2\+\_\+\+Miltsev.\+Node.\+Get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+получить вес вершины \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_afca8769bcd9af841075566b0583b17a3}\label{class_l_r2___miltsev_1_1_node_afca8769bcd9af841075566b0583b17a3}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!RemoveChild@{RemoveChild}}
+\index{RemoveChild@{RemoveChild}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{RemoveChild()}{RemoveChild()}}
+{\footnotesize\ttfamily void LR2\+\_\+\+Miltsev.\+Node.\+Remove\+Child (\begin{DoxyParamCaption}\item[{int}]{removable\+Child\+Val,  }\item[{int}]{weught = {\ttfamily -\/1} }\end{DoxyParamCaption})}
+
+удаление потомка \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a485c84ffd65583cd13d0f15dca658c3e}\label{class_l_r2___miltsev_1_1_node_a485c84ffd65583cd13d0f15dca658c3e}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!SearchChild@{SearchChild}}
+\index{SearchChild@{SearchChild}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{SearchChild()}{SearchChild()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} LR2\+\_\+\+Miltsev.\+Node.\+Search\+Child (\begin{DoxyParamCaption}\item[{int}]{child\+Value,  }\item[{int}]{weight = {\ttfamily -\/1} }\end{DoxyParamCaption})}
+
+поиск потомка по значению \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_aae3a3a0c7f95b97d6950a4c0c6e6e8cb}\label{class_l_r2___miltsev_1_1_node_aae3a3a0c7f95b97d6950a4c0c6e6e8cb}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!SearchChildWeight@{SearchChildWeight}}
+\index{SearchChildWeight@{SearchChildWeight}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{SearchChildWeight()}{SearchChildWeight()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int LR2\+\_\+\+Miltsev.\+Node.\+Search\+Child\+Weight (\begin{DoxyParamCaption}\item[{int}]{child\+Value }\end{DoxyParamCaption})}
+
+поиск потомкв по заданному весу \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_a2db789e88c24410f47059957b67bf0ed}\label{class_l_r2___miltsev_1_1_node_a2db789e88c24410f47059957b67bf0ed}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!SearchChildWeight@{SearchChildWeight}}
+\index{SearchChildWeight@{SearchChildWeight}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{SearchChildWeight()}{SearchChildWeight()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int LR2\+\_\+\+Miltsev.\+Node.\+Search\+Child\+Weight (\begin{DoxyParamCaption}\item[{int}]{child\+Value,  }\item[{int}]{weight = {\ttfamily -\/1} }\end{DoxyParamCaption})}
+
+поиск потомкв по заданному весу 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_ad7897c104a7a3117835f85895e0b920c}\label{class_l_r2___miltsev_1_1_node_ad7897c104a7a3117835f85895e0b920c}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!\_children@{\_children}}
+\index{\_children@{\_children}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{\_children}{\_children}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{struct_l_r2___miltsev_1_1_next_node}{Next\+Node}}$>$ LR2\+\_\+\+Miltsev.\+Node.\+\_\+children\hspace{0.3cm}{\ttfamily [private]}}
+
+потомоки текущей вершины \mbox{\Hypertarget{class_l_r2___miltsev_1_1_node_af353ae40e0e1a275c3e6b6545e107750}\label{class_l_r2___miltsev_1_1_node_af353ae40e0e1a275c3e6b6545e107750}} 
+\index{LR2\_Miltsev.Node@{LR2\_Miltsev.Node}!\_value@{\_value}}
+\index{\_value@{\_value}!LR2\_Miltsev.Node@{LR2\_Miltsev.Node}}
+\doxysubsubsection{\texorpdfstring{\_value}{\_value}}
+{\footnotesize\ttfamily int LR2\+\_\+\+Miltsev.\+Node.\+\_\+value\hspace{0.3cm}{\ttfamily [private]}}
+
+вес текущей вершины 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Education/\+LR2\+\_\+\+Miltsev/Node.\+cs\end{DoxyCompactItemize}

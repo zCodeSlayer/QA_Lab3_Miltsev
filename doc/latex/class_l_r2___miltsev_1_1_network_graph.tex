@@ -1,0 +1,141 @@
+\hypertarget{class_l_r2___miltsev_1_1_network_graph}{}\doxysection{LR2\+\_\+\+Miltsev.\+Network\+Graph Class Reference}
+\label{class_l_r2___miltsev_1_1_network_graph}\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_aadb5cd9dabe7d72debd6505273529e7a}{Network\+Graph}} ()
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a0a7bff2d95c1a863ff9f701c83893728}{Get\+NGTable}} ()
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_ade2e519c0ecf789066615579e1b4576f}{Get\+Initial\+Node}} ()
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a622aab42b75003596befe3959c4c7e21}{Search\+Node}} (int val)
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_ad786610e60f13aed3258407eb2d790a0}{Get\+All\+Finishing\+Nodes}} ()
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a63171ffbd8f6354b2dcd86917583e8c1}{Get\+All\+Nodes}} ()
+\item 
+void \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a1bd87d1cc0211fa59b5e951a34d69f53}{Remove\+Node}} (int val)
+\item 
+List$<$ int $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_af88a1bd43357728e55363f5fc4d5b594}{Get\+All\+Initial\+Nodes}} ()
+\item 
+void \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a433b81670387c7d469d0cb61b7dc38b8}{Display\+Sort\+NG}} ()
+\item 
+void \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a0081430d88f644d017544086c2862e25}{Create\+Network\+Graph}} (\mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} data\+Table)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a1f17261f1d8716106991a0a0ce5afcd6}{\+\_\+data\+Table}}
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a19f3c556a00aec0e80b41ace81b228a3}{\+\_\+ng\+Table}}
+\item 
+\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a1e9ee7478ec0aff411791e1c947752b4}{\+\_\+initial\+Node}}
+\item 
+List$<$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} $>$ \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph_a0a31b2f3e1602d89c2625fa1da1512eb}{\+\_\+nodes}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+$ t_i=(2t_i+3t_j) / 5 $
+
+ Класс \mbox{\hyperlink{class_l_r2___miltsev_1_1_network_graph}{Network\+Graph}}
+
+сетевой граф представляет собой список вершин, связанных ребрами через список указателей, а так же связанную с ним выходную таблицу данных 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_aadb5cd9dabe7d72debd6505273529e7a}\label{class_l_r2___miltsev_1_1_network_graph_aadb5cd9dabe7d72debd6505273529e7a}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!NetworkGraph@{NetworkGraph}}
+\index{NetworkGraph@{NetworkGraph}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{NetworkGraph()}{NetworkGraph()}}
+{\footnotesize\ttfamily LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Network\+Graph (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Конструктор класса 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a0081430d88f644d017544086c2862e25}\label{class_l_r2___miltsev_1_1_network_graph_a0081430d88f644d017544086c2862e25}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!CreateNetworkGraph@{CreateNetworkGraph}}
+\index{CreateNetworkGraph@{CreateNetworkGraph}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{CreateNetworkGraph()}{CreateNetworkGraph()}}
+{\footnotesize\ttfamily void LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Create\+Network\+Graph (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}}}]{data\+Table }\end{DoxyParamCaption})}
+
+построение сетевого графика \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a433b81670387c7d469d0cb61b7dc38b8}\label{class_l_r2___miltsev_1_1_network_graph_a433b81670387c7d469d0cb61b7dc38b8}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!DisplaySortNG@{DisplaySortNG}}
+\index{DisplaySortNG@{DisplaySortNG}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{DisplaySortNG()}{DisplaySortNG()}}
+{\footnotesize\ttfamily void LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Display\+Sort\+NG (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Отображение сетевого графика с упорядоченным списком работ \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_ad786610e60f13aed3258407eb2d790a0}\label{class_l_r2___miltsev_1_1_network_graph_ad786610e60f13aed3258407eb2d790a0}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!GetAllFinishingNodes@{GetAllFinishingNodes}}
+\index{GetAllFinishingNodes@{GetAllFinishingNodes}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{GetAllFinishingNodes()}{GetAllFinishingNodes()}}
+{\footnotesize\ttfamily List$<$ int $>$ LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Get\+All\+Finishing\+Nodes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+получение вершин, из которых не выходят ребра (завершающие) \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_af88a1bd43357728e55363f5fc4d5b594}\label{class_l_r2___miltsev_1_1_network_graph_af88a1bd43357728e55363f5fc4d5b594}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!GetAllInitialNodes@{GetAllInitialNodes}}
+\index{GetAllInitialNodes@{GetAllInitialNodes}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{GetAllInitialNodes()}{GetAllInitialNodes()}}
+{\footnotesize\ttfamily List$<$ int $>$ LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Get\+All\+Initial\+Nodes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+получение вершин, в которые нет ни одного вхождения (начальные) \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a63171ffbd8f6354b2dcd86917583e8c1}\label{class_l_r2___miltsev_1_1_network_graph_a63171ffbd8f6354b2dcd86917583e8c1}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!GetAllNodes@{GetAllNodes}}
+\index{GetAllNodes@{GetAllNodes}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{GetAllNodes()}{GetAllNodes()}}
+{\footnotesize\ttfamily List$<$ int $>$ LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Get\+All\+Nodes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+получение всех вершин \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_ade2e519c0ecf789066615579e1b4576f}\label{class_l_r2___miltsev_1_1_network_graph_ade2e519c0ecf789066615579e1b4576f}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!GetInitialNode@{GetInitialNode}}
+\index{GetInitialNode@{GetInitialNode}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{GetInitialNode()}{GetInitialNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Get\+Initial\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Получить начальную вершину \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a0a7bff2d95c1a863ff9f701c83893728}\label{class_l_r2___miltsev_1_1_network_graph_a0a7bff2d95c1a863ff9f701c83893728}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!GetNGTable@{GetNGTable}}
+\index{GetNGTable@{GetNGTable}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{GetNGTable()}{GetNGTable()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Get\+NGTable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Получить информацию о сетевом графе \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a1bd87d1cc0211fa59b5e951a34d69f53}\label{class_l_r2___miltsev_1_1_network_graph_a1bd87d1cc0211fa59b5e951a34d69f53}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!RemoveNode@{RemoveNode}}
+\index{RemoveNode@{RemoveNode}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{RemoveNode()}{RemoveNode()}}
+{\footnotesize\ttfamily void LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Remove\+Node (\begin{DoxyParamCaption}\item[{int}]{val }\end{DoxyParamCaption})}
+
+удаление узла из графа \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a622aab42b75003596befe3959c4c7e21}\label{class_l_r2___miltsev_1_1_network_graph_a622aab42b75003596befe3959c4c7e21}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!SearchNode@{SearchNode}}
+\index{SearchNode@{SearchNode}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{SearchNode()}{SearchNode()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} LR2\+\_\+\+Miltsev.\+Network\+Graph.\+Search\+Node (\begin{DoxyParamCaption}\item[{int}]{val }\end{DoxyParamCaption})}
+
+поиск узла в графе 
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a1f17261f1d8716106991a0a0ce5afcd6}\label{class_l_r2___miltsev_1_1_network_graph_a1f17261f1d8716106991a0a0ce5afcd6}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!\_dataTable@{\_dataTable}}
+\index{\_dataTable@{\_dataTable}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{\_dataTable}{\_dataTable}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} LR2\+\_\+\+Miltsev.\+Network\+Graph.\+\_\+data\+Table\hspace{0.3cm}{\ttfamily [private]}}
+
+Необработанная (исходная) таблица, предназначенная для дальнейшей обработки для превращения в сетевой граф \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a1e9ee7478ec0aff411791e1c947752b4}\label{class_l_r2___miltsev_1_1_network_graph_a1e9ee7478ec0aff411791e1c947752b4}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!\_initialNode@{\_initialNode}}
+\index{\_initialNode@{\_initialNode}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{\_initialNode}{\_initialNode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}} LR2\+\_\+\+Miltsev.\+Network\+Graph.\+\_\+initial\+Node\hspace{0.3cm}{\ttfamily [private]}}
+
+начальная вершина сетевого графа \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a19f3c556a00aec0e80b41ace81b228a3}\label{class_l_r2___miltsev_1_1_network_graph_a19f3c556a00aec0e80b41ace81b228a3}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!\_ngTable@{\_ngTable}}
+\index{\_ngTable@{\_ngTable}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{\_ngTable}{\_ngTable}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_l_r2___miltsev_1_1_data}{Data}} LR2\+\_\+\+Miltsev.\+Network\+Graph.\+\_\+ng\+Table\hspace{0.3cm}{\ttfamily [private]}}
+
+выходная (итоговая) таблица сетевого графа \mbox{\Hypertarget{class_l_r2___miltsev_1_1_network_graph_a0a31b2f3e1602d89c2625fa1da1512eb}\label{class_l_r2___miltsev_1_1_network_graph_a0a31b2f3e1602d89c2625fa1da1512eb}} 
+\index{LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}!\_nodes@{\_nodes}}
+\index{\_nodes@{\_nodes}!LR2\_Miltsev.NetworkGraph@{LR2\_Miltsev.NetworkGraph}}
+\doxysubsubsection{\texorpdfstring{\_nodes}{\_nodes}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_l_r2___miltsev_1_1_node}{Node}}$>$ LR2\+\_\+\+Miltsev.\+Network\+Graph.\+\_\+nodes\hspace{0.3cm}{\ttfamily [private]}}
+
+список всех вершин 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Education/\+LR2\+\_\+\+Miltsev/Network\+Graph.\+cs\end{DoxyCompactItemize}
